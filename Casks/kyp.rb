@@ -14,22 +14,22 @@ cask "kyp" do
   on_macos do
     on_intel do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_darwin_amd64.tar.gz"
-      sha256 "82eda316af2271f6eddfb4de9005904fb9e89ba92034d4c0ae0b17bab9492a3f"
+      sha256 "0059d4943433e1a7d0ec34e298b92f3bacc17f8c67ac09e978840ff05e13b74f"
     end
     on_arm do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_darwin_arm64.tar.gz"
-      sha256 "900719febf24d4a17a569383984f998bf949672a5508e477217e279c1ab0f52f"
+      sha256 "55c75b5b702bc4fc83896cd8e1426cee3825961174607c21bf860e43f20a82fa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_linux_amd64.tar.gz"
-      sha256 "5138be0ded3b0bf2e3c06423be3907815de4abcbc34b56c6a44beced4af000a4"
+      sha256 "fca479e428d0eb5a61b10f2aaa36afe3bf549b397a6660b505ff61d28c8559d0"
     end
     on_arm do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_linux_arm64.tar.gz"
-      sha256 "28b07202d97cac072ecd3ca77c7e88d584ed46d62b076e30b0d2647d548a739d"
+      sha256 "050d677ecd68c29eb967a059116256f4b00eff84a8aab52ab174cf37607bc4b3"
     end
   end
 
