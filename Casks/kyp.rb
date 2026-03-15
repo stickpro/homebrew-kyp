@@ -3,7 +3,7 @@ cask "kyp" do
   name "kyp"
   desc "Local-first terminal password manager with TOTP support"
   homepage "https://github.com/stickpro/kyp"
-  version "0.2.1-RC"
+  version "0.2.1-RC2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kyp" do
   on_macos do
     on_intel do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_darwin_amd64.tar.gz"
-      sha256 "fc67988ff47123c0fdf299b36d1c53e5fc59e763e13b067a571dbc1c05349714"
+      sha256 "0293ee2c1f96b1baa7c789b7a8bfe82fa25044cc632098947193be6433099187"
     end
     on_arm do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_darwin_arm64.tar.gz"
-      sha256 "8958fbc664fb4a8c63564f26a9b17334bbe4bb8c939c073c065f46d4968f2880"
+      sha256 "9d7a5f95875aebfed39f9ed4d7b76718ab83af3a6a443b73e0a241642b5d9f6b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_linux_amd64.tar.gz"
-      sha256 "3725feafe68b94b836ba05a682e8cbc73fcfde8088647da77d91406cca5ba61d"
+      sha256 "33791a8c374f9bf81f446017db31ebcc91372e40746cea9a132a636ef36ae264"
     end
     on_arm do
       url "https://github.com/stickpro/kyp/releases/download/v#{version}/kyp_#{version}_linux_arm64.tar.gz"
-      sha256 "89a085f75e68bdbb13d30c0d673e73cc94c334958779986bafab57d336597e85"
+      sha256 "61b85d36ef5e63f46f36c263da3316273d6b97051e6c2a31b536aac7ba541220"
     end
   end
 
